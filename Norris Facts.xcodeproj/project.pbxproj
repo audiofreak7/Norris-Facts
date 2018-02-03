@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AA5BCA279DE96597D57409 /* Pods_Norris_Facts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16784F3CEEBB8E4154D4A3 /* Pods_Norris_Facts.framework */; };
+		AD7BCC10201059E400DC735D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7BCC0F201059E400DC735D /* AppDelegate.swift */; };
+		AD7BCC12201059E400DC735D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7BCC11201059E400DC735D /* ViewController.swift */; };
+		AD7BCC15201059E400DC735D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7BCC13201059E400DC735D /* Main.storyboard */; };
+		AD7BCC17201059E400DC735D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7BCC16201059E400DC735D /* Assets.xcassets */; };
+		AD7BCC1A201059E400DC735D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7BCC18201059E400DC735D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E03E1F8B7067D2293C38C17 /* Pods-Norris Facts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Norris Facts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Norris Facts/Pods-Norris Facts.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC188B1FD48E09688E7707C /* Pods-Norris Facts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Norris Facts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Norris Facts/Pods-Norris Facts.release.xcconfig"; sourceTree = "<group>"; };
+		3E16784F3CEEBB8E4154D4A3 /* Pods_Norris_Facts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Norris_Facts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7BCC0C201059E400DC735D /* Norris Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Norris Facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7BCC0F201059E400DC735D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD7BCC11201059E400DC735D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD7BCC14201059E400DC735D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD7BCC16201059E400DC735D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7BCC19201059E400DC735D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD7BCC1B201059E400DC735D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD7BCC09201059E400DC735D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AA5BCA279DE96597D57409 /* Pods_Norris_Facts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1424A49B83825E1601FBBD9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E03E1F8B7067D2293C38C17 /* Pods-Norris Facts.debug.xcconfig */,
+				3BC188B1FD48E09688E7707C /* Pods-Norris Facts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		976F20BEEA1AD592440B3A09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E16784F3CEEBB8E4154D4A3 /* Pods_Norris_Facts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD7BCC03201059E400DC735D = {
+			isa = PBXGroup;
+			children = (
+				AD7BCC0E201059E400DC735D /* Norris Facts */,
+				AD7BCC0D201059E400DC735D /* Products */,
+				1424A49B83825E1601FBBD9A /* Pods */,
+				976F20BEEA1AD592440B3A09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7BCC0D201059E400DC735D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7BCC0C201059E400DC735D /* Norris Facts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7BCC0E201059E400DC735D /* Norris Facts */ = {
+			isa = PBXGroup;
+			children = (
+				AD7BCC0F201059E400DC735D /* AppDelegate.swift */,
+				AD7BCC11201059E400DC735D /* ViewController.swift */,
+				AD7BCC13201059E400DC735D /* Main.storyboard */,
+				AD7BCC16201059E400DC735D /* Assets.xcassets */,
+				AD7BCC18201059E400DC735D /* LaunchScreen.storyboard */,
+				AD7BCC1B201059E400DC735D /* Info.plist */,
+			);
+			path = "Norris Facts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD7BCC0B201059E400DC735D /* Norris Facts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7BCC1E201059E400DC735D /* Build configuration list for PBXNativeTarget "Norris Facts" */;
+			buildPhases = (
+				47B45352D99200FDEDB72DD6 /* [CP] Check Pods Manifest.lock */,
+				AD7BCC08201059E400DC735D /* Sources */,
+				AD7BCC09201059E400DC735D /* Frameworks */,
+				AD7BCC0A201059E400DC735D /* Resources */,
+				D488DE4A772BF7716E5D54D5 /* [CP] Embed Pods Frameworks */,
+				B371B41C0B5572B6106C2041 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Norris Facts";
+			productName = "Norris Facts";
+			productReference = AD7BCC0C201059E400DC735D /* Norris Facts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7BCC04201059E400DC735D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "John Pospisil";
+				TargetAttributes = {
+					AD7BCC0B201059E400DC735D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD7BCC07201059E400DC735D /* Build configuration list for PBXProject "Norris Facts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD7BCC03201059E400DC735D;
+			productRefGroup = AD7BCC0D201059E400DC735D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD7BCC0B201059E400DC735D /* Norris Facts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD7BCC0A201059E400DC735D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7BCC1A201059E400DC735D /* LaunchScreen.storyboard in Resources */,
+				AD7BCC17201059E400DC735D /* Assets.xcassets in Resources */,
+				AD7BCC15201059E400DC735D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47B45352D99200FDEDB72DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Norris Facts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B371B41C0B5572B6106C2041 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Norris Facts/Pods-Norris Facts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D488DE4A772BF7716E5D54D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Norris Facts/Pods-Norris Facts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Norris Facts/Pods-Norris Facts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7BCC08201059E400DC735D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7BCC12201059E400DC735D /* ViewController.swift in Sources */,
+				AD7BCC10201059E400DC735D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD7BCC13201059E400DC735D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7BCC14201059E400DC735D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD7BCC18201059E400DC735D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7BCC19201059E400DC735D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD7BCC1C201059E400DC735D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD7BCC1D201059E400DC735D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD7BCC1F201059E400DC735D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E03E1F8B7067D2293C38C17 /* Pods-Norris Facts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84Q2R7NFMX;
+				INFOPLIST_FILE = "Norris Facts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnpospisil.Norris-Facts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7BCC20201059E400DC735D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC188B1FD48E09688E7707C /* Pods-Norris Facts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84Q2R7NFMX;
+				INFOPLIST_FILE = "Norris Facts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnpospisil.Norris-Facts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD7BCC07201059E400DC735D /* Build configuration list for PBXProject "Norris Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7BCC1C201059E400DC735D /* Debug */,
+				AD7BCC1D201059E400DC735D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7BCC1E201059E400DC735D /* Build configuration list for PBXNativeTarget "Norris Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7BCC1F201059E400DC735D /* Debug */,
+				AD7BCC20201059E400DC735D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD7BCC04201059E400DC735D /* Project object */;
+}
